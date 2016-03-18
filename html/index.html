@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<!--[if IE 8]>          <html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>          <html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  <html> <!--<![endif]-->
+<head>
+    <!-- Page Title -->
+    <title>OneTkt - Best Gyms, Yoga Centers and Sports Training Centers </title>
+    
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="OneTkt - Membership and Tickets - Gyms, Yoga, sports, Clubs and More" />
+    <meta name="description" content="OneTkt - Buy membership - Gyms, Yoga, Dancce, Sports a ">
+    <meta name="author" content="SoapTheme">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    <!-- Current Page Styles -->
+    <link rel="stylesheet" type="text/css" href="components/revolution_slider/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="components/revolution_slider/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="components/jquery.bxslider/jquery.bxslider.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="components/flexslider/flexslider.css" media="screen" />
+    
+    <!-- Main Style -->
+    <link id="main-style" rel="stylesheet" href="css/style.css">
+    
+    <!-- Updated Styles -->
+    <link rel="stylesheet" href="css/updates.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Responsive Styles -->
+    <link rel="stylesheet" href="css/responsive.css">
+    
+	<script src="https://maps.googleapis.com/maps/api/jsvv=3.exp&sensor=false&libraries=places"></script>
+	
+    <!-- CSS for IE -->
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <![endif]-->
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <script>
+            function initialize() {
+
+						var input = document.getElementById('searchhome');
+						var autocomplete = new google.maps.places.Autocomplete(input);
+					 			  }
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <div id="page-wrapper">
+        <header id="header" class="navbar-static-top style2">
+            <div class="topnav">
+                <div class="container">
+                    <nav id="main-menu" role="navigation">
+                        <ul class="menu">
+                            <li class="menu-item-has-children">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="gym-grid-view.html">Gyms</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="sports-grid-view.html">Sports</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="quick-menu pull-right clearfix">
+                        <li class="ribbon">
+                            <a href="#">City</a>
+                            <ul class="menu mini">
+                                <li><a href="#" title="Bangalore">Bangalore</a></li>
+                                <li><a href="#" title="Chennai">Chennai</a></li>
+                                <li class="active"><a href="#" title="Hyderabad">Hyderabad</a></li>
+                                <li><a href="#" title="Delhi">Delhi</a></li>
+                                <li><a href="#" title="Kolkata">Kolkata</a></li>
+                                <li><a href="#" title="Mumbai">Mumbai</a></li>
+                                <li><a href="#" title="Pune">Pune</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                        <li><a href="#">ACCOUNT</a></li>
+                        <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
+                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="main-header">
+                
+                <a href="#mobile-menu-01" data-toggle="collapse" class="mobile-menu-toggle">
+                    Mobile Menu Toggle
+                </a>
+
+                <div class="container">
+                    <h1 class="logo navbar-brand">
+                        <a href="index.html" title="OneTkt - home">
+                            <img src="images/logo.png" alt="OneTkt HTML5 Template" />
+                        </a>
+                    </h1>
+                    <div class="header-search col-sm-offset-4 col-md-offset-2 hidden-mobile">
+                        <form method="post" role="form">
+                            <div class="col-xs-6">
+                                <input type="text" name="where" id="searchhome" value="" placeholder="Where do you want to go?" class="input-text white-bg full-width where" />
+                            </div>
+                            <div class="col-xs-6">									
+                                <div class="col-xs-3">
+                                    <div class="selector style1 guest">
+                                        <select class="full-width white-bg">
+                                            <option>Gym</option>
+                                            <option>Sports</option>
+											<option>Yoga</option>
+											<option>Dance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+								    <!-- Added by Harsha onclick action -->
+                                    <button type="submit" class="btn-medium uppercase full-width">search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <nav id="mobile-menu-01" class="mobile-menu collapse">
+                    <ul id="mobile-primary-menu" class="menu">
+                        <li class="menu-item-has-children">
+                            <a href="index.html">Home</a>
+                        </li>
+							<li class="menu-item-has-children">
+                                <a href="gym-index.html">Hotels</a>
+                                <ul>
+                                    <li><a href="gym-grid-view.html">List View</a></li>
+                                    <li><a href="gym-detailed.html">Detailed</a></li>
+                                    <li><a href="gym-booking.html">Booking</a></li>
+                                    <li><a href="gym-thankyou.html">Thank You</a></li>
+                                </ul>
+							</li>
+                            <li class="menu-item-has-children">
+                                <a href="sports-index.html">Sports</a>
+                                <ul>
+                                    <li><a href="sports-grid-view.html">Grid View</a></li>
+                                    <li><a href="sports-detailed.html">Detailed</a></li>
+                                    <li><a href="sports-booking.html">Booking</a></li>
+                                    <li><a href="sports-thankyou.html">Thank You</a></li>
+                                </ul>
+                            </li>
+                              
+                    </ul>
+                    
+                    <ul class="mobile-topnav container">
+                        <li><a href="#">MY ACCOUNT</a></li>
+                        <li class="ribbon language menu-color-skin">
+                            <a href="#" data-toggle="collapse">ENGLISH</a>
+                            <ul class="menu mini">
+                                <li><a href="#" title="Bangalore">Bangalore</a></li>
+                                <li><a href="#" title="Chennai">Chennai</a></li>
+                                <li class="active"><a href="#" title="Hyderabad">Hyderabad</a></li>
+                                <li><a href="#" title="Delhi">Delhi</a></li>
+                                <li><a href="#" title="Kolkata">Kolkata</a></li>
+                                <li><a href="#" title="Mumbai">Mumbai</a></li>
+                                <li><a href="#" title="Pune">Pune</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#travelo-login" class="soap-popupbox">LOGIN</a></li>
+                        <li><a href="#travelo-signup" class="soap-popupbox">SIGNUP</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <div id="travelo-signup" class="travelo-signup-box travelo-box">
+                <div class="login-social">
+                    <a href="#" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
+                    <a href="#" class="button login-googleplus"><i class="soap-icon-googleplus"></i>Login with Google+</a>
+                </div>
+                <div class="seperator"><label>OR</label></div>
+                <div class="simple-signup">
+                    <div class="text-center signup-email-section">
+                        <a href="#" class="signup-email"><i class="soap-icon-letter"></i>Sign up with Email</a>
+                    </div>
+                    <p class="description">By signing up, I agree to OneTkt's Terms of Service, Privacy Policy, Guest Refund olicy, and Host Guarantee Terms.</p>
+                </div>
+                <div class="email-signup">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="first name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="last name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="input-text full-width" placeholder="email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input-text full-width" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input-text full-width" placeholder="confirm password">
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Tell me about OneTkt news
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p class="description">By signing up, I agree to OneTkt's Terms of Service, Privacy Policy, Guest Refund Policy, and Host Guarantee Terms.</p>
+                        </div>
+                        <button type="submit" class="full-width btn-medium">SIGNUP</button>
+                    </form>
+                </div>
+                <div class="seperator"></div>
+                <p>Already a OneTkt member? <a href="#travelo-login" class="goto-login soap-popupbox">Login</a></p>
+            </div>
+            <div id="travelo-login" class="travelo-login-box travelo-box">
+                <div class="login-social">
+                    <a href="#" class="button login-facebook"><i class="soap-icon-facebook"></i>Login with Facebook</a>
+                    <a href="#" class="button login-googleplus"><i class="soap-icon-googleplus"></i>Login with Google+</a>
+                </div>
+                <div class="seperator"><label>OR</label></div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="input-text full-width" placeholder="email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="input-text full-width" placeholder="password">
+                    </div>
+                    <div class="form-group">
+                        <a href="#" class="forgot-password pull-right">Forgot password?</a>
+                        <div class="checkbox checkbox-inline">
+                            <label>
+                                <input type="checkbox"> Remember me
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <div class="seperator"></div>
+                <p>Don't have an account? <a href="#travelo-signup" class="goto-signup soap-popupbox">Sign up</a></p>
+            </div>
+        </header>
+        <div id="slideshow">
+            <div class="fullwidthbanner-container">
+                <div class="revolution-slider" style="height: 0; overflow: hidden;">
+                    <ul>    <!-- SLIDE  -->
+                        <!-- Slide4 -->
+                        <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1500">
+                            <!-- MAIN IMAGE -->
+                            <img src="./images/Home/HomePic4.jpg" alt="">
+                        </li>
+						
+						<!-- Slide1 -->
+                        <li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500">
+                            <!-- MAIN IMAGE -->
+                            <img src="./images/Home/HomePic1.jpg" alt="">
+                        </li>
+                        
+                        <!-- Slide2 -->
+                        <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500">
+                            <!-- MAIN IMAGE -->
+                            <img src="./images/Home/HomePic2.jpg" alt="">
+                        </li>
+                        
+                        <!-- Slide3 -->
+                        <li data-transition="slidedown" data-slotamount="7" data-masterspeed="1500">
+                            <!-- MAIN IMAGE -->
+                            <img src="./images/Home/HomePic3.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section id="content">
+            <div class="section">
+                <div class="container">
+                    <h2>Featured Service Providers</h2>
+                    <div class="block image-carousel style2 flexslider" data-animation="slide" data-item-width="270" data-item-margin="30">
+                        <ul class="slides image-box listing-style2">
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img src="./images/Other/Home2_270by160.jpg" alt="" width="270" height="160" /></a>
+                                    </figure>
+                                    <div class="details">
+                                        <a title="View all" href="gym-detailed.html" class="pull-right button uppercase">select</a>
+                                        <h4 class="box-title">Fitness Time</h4>
+                                        <label class="price-wrapper">
+                                            <span class="price-per-unit">INR 2000</span>per Month
+                                        </label>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img src="./images/Other/Home1_270by160.jpg" alt="" width="270" height="160" /></a>
+                                    </figure>
+                                    <div class="details">
+                                        <a title="View all" href="gym-detailed.html" class="pull-right button uppercase">select</a>
+                                        <h4 class="box-title">Health Bite</h4>
+                                        <label class="price-wrapper">
+                                            <span class="price-per-unit">INR 12000</span>per Year
+                                        </label>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img src="./images/Other/Home3_270by160.jpg" alt="" width="270" height="160" /></a>
+                                    </figure>
+                                    <div class="details">
+                                        <a title="View all" href="gym-detailed.html" class="pull-right button uppercase">select</a>
+                                        <h4 class="box-title">Universal Gym</h4>
+                                        <label class="price-wrapper">
+                                            <span class="price-per-unit">INR 1500</span>per Month
+                                        </label>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img src="./images/Other/Home4_270by160.jpg" alt="" width="270" height="160" /></a>
+                                    </figure>
+                                    <div class="details">
+                                        <a title="View all" href="gym-detailed.html" class="pull-right button uppercase">select</a>
+                                        <h4 class="box-title">SixPack </h4>
+                                        <label class="price-wrapper">
+                                            <span class="price-per-unit">INR 10000</span> per 3Months
+                                        </label>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img src="./images/Other/Home5_270by160.jpg" alt="" width="270" height="160" /></a>
+                                    </figure>
+                                    <div class="details">
+                                        <a title="View all" href="gym-detailed.html" class="pull-right button uppercase">select</a>
+                                        <h4 class="box-title">Gran Canaria</h4>
+                                        <label class="price-wrapper">
+                                            <span class="price-per-unit">INR 3220</span>per Month
+                                        </label>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="block row">
+                        <div class="col-md-6">
+                            <h2>Hot Deals</h2>
+                            <div class="tab-container style1 box">
+                                <ul class="tabs">
+                                    <li class="active"><a href="#hot-hotel-popular" data-toggle="tab">Popular</a></li>
+                                    <li><a href="#hot-gym-fitnessworld" data-toggle="tab">Gym</a></li>
+                                    <li><a href="#hot-yoga-OmYoga" data-toggle="tab">Yoga</a></li>
+                                    <li><a href="#hot-sports-rameshsportscenter" data-toggle="tab">Sports</a></li>
+                                    <li><a href="#hot-dance-ravitejadancegroup" data-toggle="tab">Dance</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="hot-hotel-popular">
+                                        <div class="row">
+                                            <div class="col-xs-2">
+                                                <a href="#" class="badge-container"><span class="badge-content">save 23%</span><img class="full-width" src="http://placehold.it/63x63" alt="" width="63" height="63" /></a>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <h5 class="box-title">Fitness Time<small>Hyderabad</small></h5>
+                                                <p class="no-margin">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <span class="price"><small>per month</small>INR 2400</span>
+                                                <br /><br />
+                                                <a class="button green-bg pull-right" href="gym-detailed.html">SELECT</a>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xs-2">
+                                                <a href="#" class="badge-container"><span class="badge-content">save 23%</span><img class="full-width" src="http://placehold.it/63x63" alt="" width="63" height="63" /></a>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <h5 class="box-title">Gym World<small>Hyderabad</small></h5>
+                                                <p class="no-margin">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                            </div>
+                                            <div class="col-xs-2">
+                                                <span class="price"><small>per month</small>INR 2000</span>
+                                                <br /><br />
+                                                <a class="button green-bg pull-right" href="hotel-detailed.html">SELECT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="hot-hotel-lasvegas">
+                                        
+                                    </div>
+                                    <div class="tab-pane fade" id="hot-hotel-miami">
+                                        
+                                    </div>
+                                    <div class="tab-pane fade" id="hot-hotel-sanfrancisco">
+                                        
+                                    </div>
+                                    <div class="tab-pane fade" id="hot-hotel-hongkong">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>What Our Users Say?</h2>
+                            <div class="testimonial style1 box">
+                                <ul class="slides ">
+                                    <li>
+                                        <p class="description">This is the 3rd time I’ve used OneTkt website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
+                                        <div class="author clearfix">
+                                            <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
+                                            <h5 class="name">Jessica Brown<small>guest</small></h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="description">This is the 3rd time I’ve used OneTkt website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
+                                        <div class="author clearfix">
+                                            <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
+                                            <h5 class="name">Lisa Kimberly<small>guest</small></h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="description">This is the 3rd time I’ve used OneTkt website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize your entire trip using their extremely fast website and up to date listings. I’m super excited about my next trip to Paris.</p>
+                                        <div class="author clearfix">
+                                            <a href="#"><img src="http://placehold.it/270x270" alt="" width="74" height="74" /></a>
+                                            <h5 class="name">Jessica Brown<small>guest</small></h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Trending - Service Providers</h2>
+                    <div class="image-carousel style2 flexslider" data-animation="slide" data-item-width="270" data-item-margin="30">
+                        <ul class="slides image-box hotel listing-style1">
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./images/Other/Home6_270by160.jpg"></a>
+                                    </figure>
+                                    <div class="details">
+                                        <span class="price">
+                                            <small>avg/night</small>
+                                            $360
+                                        </span>
+                                        <h4 class="box-title">Hotel Hilton<small>Paris france</small></h4>
+                                        <div class="feedback">
+                                            <div data-placement="bottom" data-toggle="tooltip" class="five-stars-container" title="4 stars"><span style="width: 80%;" class="five-stars"></span></div>
+                                            <span class="review">270 reviews</span>
+                                        </div>
+                                        <p class="description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                        <div class="action">
+                                            <a class="button btn-small" href="hotel-detailed.html">SELECT</a>
+                                            <a class="button btn-small yellow popup-map" href="#" data-box="48.856614, 2.352222">VIEW ON MAP</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./images/Other/Home7_270by160.jpg"></a>
+                                    </figure>
+                                    <div class="details">
+                                        <span class="price"><small>avg/night</small>$188</span>
+                                        <h4 class="box-title">Forte Do Vale<small>Albufeira</small></h4>
+                                        <div class="feedback">
+                                            <div data-placement="bottom" data-toggle="tooltip" class="five-stars-container" title="4 stars"><span style="width: 80%;" class="five-stars"></span></div>
+                                            <span class="review">170 reviews</span>
+                                        </div>
+                                        <p class="description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                        <div class="action">
+                                            <a class="button btn-small" href="hotel-detailed.html">SELECT</a>
+                                            <a class="button btn-small yellow popup-map" href="#" data-box="37.089072, -8.247880">VIEW ON MAP</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./images/Other/Home8_270by160.jpg"></a>
+                                    </figure>
+                                    <div class="details">
+                                        <span class="price"><small>avg/night</small>$322</span>
+                                        <h4 class="box-title">Gran Canaria<small>spain</small></h4>
+                                        <div class="feedback">
+                                            <div data-placement="bottom" data-toggle="tooltip" class="five-stars-container" title="4 stars"><span style="width: 80%;" class="five-stars"></span></div>
+                                            <span class="review">485 reviews</span>
+                                        </div>
+                                        <p class="description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                        <div class="action">
+                                            <a class="button btn-small" href="hotel-detailed.html">SELECT</a>
+                                            <a class="button btn-small yellow popup-map" href="#" data-box="40.463667, -3.749220">VIEW ON MAP</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./images/Other/Home9_270by160.jpg"></a>
+                                    </figure>
+                                    <div class="details">
+                                        <span class="price"><small>avg/night</small>$170</span>
+                                        <h4 class="box-title">Roosevelt Hotel<small>New york</small></h4>
+                                        <div class="feedback">
+                                            <div data-placement="bottom" data-toggle="tooltip" class="five-stars-container" title="4 stars"><span style="width: 80%;" class="five-stars"></span></div>
+                                            <span class="review">75 reviews</span>
+                                        </div>
+                                        <p class="description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                        <div class="action">
+                                            <a class="button btn-small" href="hotel-detailed.html">SELECT</a>
+                                            <a class="button btn-small yellow popup-map" href="#" data-box="40.705631, -73.978003">VIEW ON MAP</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="box">
+                                    <figure>
+                                        <a href="ajax/slideshow-popup.html" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./images/Other/Home2_270by160.jpg"></a>
+                                    </figure>
+                                    <div class="details">
+                                        <span class="price">
+                                            <small>avg/night</small>
+                                            $360
+                                        </span>
+                                        <h4 class="box-title">Hotel Hilton<small>Paris france</small></h4>
+                                        <div class="feedback">
+                                            <div data-placement="bottom" data-toggle="tooltip" class="five-stars-container" title="4 stars"><span style="width: 80%;" class="five-stars"></span></div>
+                                            <span class="review">270 reviews</span>
+                                        </div>
+                                        <p class="description">Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                        <div class="action">
+                                            <a class="button btn-small" href="hotel-detailed.html">SELECT</a>
+                                            <a class="button btn-small yellow popup-map" href="#" data-box="48.856614, 2.352222">VIEW ON MAP</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           <div class="global-map-area section parallax" data-stellar-background-ratio="0.5">
+                <div class="container description">
+                    <h1 class="text-center box">Why OneTkt</h1>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3">
+                            <div class="icon-box style8 animated" data-animation-type="slideInUp" data-animation-delay="0">
+                                <i class="soap-icon-hotel"></i>
+                                <h4 class="box-title">1000+ Service Providers</h4>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3">
+                            <div class="icon-box style8 animated" data-animation-type="slideInUp" data-animation-delay="0.6">
+                                <i class="soap-icon-insurance"></i>
+                                <h4 class="box-title">Low Rates &amp; Top Savings</h4>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3">
+                            <div class="icon-box style8 animated" data-animation-type="slideInUp" data-animation-delay="0.9">
+                                <i class="soap-icon-star-1"></i>
+                                <h4 class="box-title">Reviewes from Real Users</h4>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3">
+                            <div class="icon-box style8 animated" data-animation-type="slideInUp" data-animation-delay="1.2">
+                                <i class="soap-icon-support"></i>
+                                <h4 class="box-title">We Know your requirement</h4>
+                                <p class="description">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>   
+        </section>
+        <footer id="footer">
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <h2>Discover</h2>
+                            <ul class="discover triangle hover row">
+                                <li class="col-xs-6"><a href="#">Safety</a></li>
+                                <li class="col-xs-6"><a href="#">About</a></li>
+                                <li class="col-xs-6"><a href="#">OneTkt Picks</a></li>
+                                <li class="col-xs-6"><a href="#">Latest Jobs</a></li>
+                                <li class="active col-xs-6"><a href="#">Mobile</a></li>
+                                <li class="col-xs-6"><a href="#">Press Releases</a></li>
+                                <li class="col-xs-6"><a href="#">Why Host</a></li>
+                                <li class="col-xs-6"><a href="#">Blog Posts</a></li>
+                                <li class="col-xs-6"><a href="#">Social Connect</a></li>
+                                <li class="col-xs-6"><a href="#">Help Topics</a></li>
+                                <li class="col-xs-6"><a href="#">Site Map</a></li>
+                                <li class="col-xs-6"><a href="#">Policies</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h2>OneTkt News</h2>
+                            <ul class="travel-news">
+                                <li>
+                                    <div class="thumb">
+                                        <a href="#">
+                                            <img src="http://placehold.it/63x63" alt="" width="63" height="63" />
+                                        </a>
+                                    </div>
+                                    <div class="description">
+                                        <h5 class="s-title"><a href="#">Fitness Secrets</a></h5>
+                                        <p>Purus ac congue arcu cursus ut vitae pulvinar massaidp.</p>
+                                        <span class="date">20 Feb, 2016</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumb">
+                                        <a href="#">
+                                            <img src="http://placehold.it/63x63" alt="" width="63" height="63" />
+                                        </a>
+                                    </div>
+                                    <div class="description">
+                                        <h5 class="s-title"><a href="#">Select Sports Center</a></h5>
+                                        <p>Purus ac congue arcu cursus ut vitae pulvinar massaidp.</p>
+                                        <span class="date">21 Feb, 2016</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h2>Mailing List</h2>
+                            <p>Sign up for our mailing list to get latest updates and offers.</p>
+                            <br />
+                            <div class="icon-check">
+                                <input type="text" class="input-text full-width" placeholder="your email" />
+                            </div>
+                            <br />
+                            <span>We respect your privacy</span>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h2>About OneTkt</h2>
+                            <p>platform to find the best gyms, sports centers and game centers nd buy memberships/tickets/book slots</p>
+                            <br />
+                            <address class="contact-details">
+                                <span class="contact-phone"><i class="soap-icon-phone"></i> 9676468686-HELLO</span>
+                                <br />
+                                <a href="#" class="contact-email">help@onetkt.com</a>
+                            </address>
+                            <ul class="social-icons clearfix">
+                                <li class="twitter"><a title="twitter" href="#" data-toggle="tooltip"><i class="soap-icon-twitter"></i></a></li>
+                                <li class="googleplus"><a title="googleplus" href="#" data-toggle="tooltip"><i class="soap-icon-googleplus"></i></a></li>
+                                <li class="facebook"><a title="facebook" href="#" data-toggle="tooltip"><i class="soap-icon-facebook"></i></a></li>
+                                <li class="linkedin"><a title="linkedin" href="#" data-toggle="tooltip"><i class="soap-icon-linkedin"></i></a></li>
+                                <li class="vimeo"><a title="vimeo" href="#" data-toggle="tooltip"><i class="soap-icon-vimeo"></i></a></li>
+                                <li class="dribble"><a title="dribble" href="#" data-toggle="tooltip"><i class="soap-icon-dribble"></i></a></li>
+                                <li class="flickr"><a title="flickr" href="#" data-toggle="tooltip"><i class="soap-icon-flickr"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom gray-area">
+                <div class="container">
+                    <div class="logo pull-left">
+                        <a href="index.html" title="OneTkt - home">
+                            <img src="images/logo.png" alt="OneTkt HTML5 Template" />
+                        </a>
+                    </div>
+                    <div class="pull-right">
+                        <a id="back-to-top" href="#" class="animated" data-animation-type="bounce"><i class="soap-icon-longarrow-up circle"></i></a>
+                    </div>
+                    <div class="copyright pull-right">
+                        <p>&copy; 2016 OneTkt</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.noconflict.js"></script>
+    <script type="text/javascript" src="js/modernizr.2.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.1.10.4.min.js"></script>
+    
+    <!-- Twitter Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+    <!-- load revolution slider scripts -->
+    <script type="text/javascript" src="components/revolution_slider/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="components/revolution_slider/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Flex Slider -->
+    <script type="text/javascript" src="components/flexslider/jquery.flexslider-min.js"></script>
+    
+    <!-- load BXSlider scripts -->
+    <script type="text/javascript" src="components/jquery.bxslider/jquery.bxslider.min.js"></script>
+    
+    <!-- parallax -->
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    
+    <!-- waypoint -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+    <!-- load page Javascript -->
+    <script type="text/javascript" src="js/theme-scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    
+    <script type="text/javascript">
+        tjq(document).ready(function() {
+            tjq('.revolution-slider').revolution(
+            {
+                dottedOverlay:"none",
+                delay:9000,
+                startwidth:1170,
+                startheight:645,
+                onHoverStop:"on",
+                hideThumbs:10,
+                fullWidth:"on",
+                forceFullWidth:"on",
+                navigationType:"none",
+                shadow:0,
+                spinner:"spinner4",
+                hideTimerBar:"on",
+            });
+        });
+    </script>
+</body>
+</html>
+
